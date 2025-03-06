@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memoria visual de la Vila</title>
+   <!-- Importar una fuente desde Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nouislider@15.6.1/dist/nouislider.min.css" />
+  <link rel="stylesheet" href="style.css"/>
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/nouislider@15.6.1/dist/nouislider.min.js"></script>
+<script>
+  function cerrarModalImagen() {
+    document.getElementById("myModal").style.display = "none";
+  }
+</script>
+</head>
+
+
+<body>
+
+  <!-- Contenedor principal -->
+  <div id="container">
+<header>
+  <h1>Memoria visual de la Vila</h1>
+  
+  <div id="slider-range"></div>
+<div>
+  <span id="min-year-display"></span> - 
+  <span id="max-year-display"></span>
+</div>
+</header>
+
+
+    <!-- Mapa -->
+    <div id="map"></div>
+  </div>
+
+<!-- Panel lateral (side panel) -->
+<div id="sidepanel" class="">
+  <button id="close-panel">Cerrar</button>
+  <div id="sidepanel-content">
+    <h2 id="sidepanel-title"></h2>
+    <div class="img-container">
+      <img id="sidepanel-img" src="" alt="" />
+      <button id="zoom-image-btn" class="zoom-button">
+        🔍
+      </button>
+    </div>
+    <p id="sidepanel-desc"></p>
+  </div>
+</div>
+
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <!-- Tu script -->
+  <script src="script.js"></script>
+
+<!-- Modal para la imagen ampliada -->
+<div class="modal" id="myModal">
+  <div class="modal-content">
+    <!-- Botón de cierre dentro del contenido del modal -->
+    <span class="modal-close" onclick="cerrarModalImagen()">&times;</span>
+    
+    <img id="modal-image" src="" alt="" />
+  </div>
+</div>
+
+
+
+</body>
+</html>
