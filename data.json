@@ -5,14 +5,14 @@
     "titulo": "Plaça de la Vila",
     "img": "plaza_mayor.jpg",
     "desc": "Exemple de text que pot haver, explicant característiques, detalls, etc",
-    "year": 1920,
+    "year": 1920
   },
   {
     "lat": 39.939,
     "lon": -0.100,
     "titulo": "Pont",
     "img": "puente_antiguo.jpg",
-    "desc": "Exemple de text que pot haver, explicant característiques, detalls, etc",,
-    "year": 1930,
+    "desc": "Exemple de text que pot haver, explicant característiques, detalls, etc",
+    "year": 1930
   }
 ]
