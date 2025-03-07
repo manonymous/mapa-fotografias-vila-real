@@ -2,17 +2,17 @@
   {
     "lat": 39.937,
     "lon": -0.103,
-    "titulo": "Antigua Plaza Mayor",
+    "titulo": "Plaça de la Vila",
     "img": "plaza_mayor.jpg",
-    "desc": "Foto de la Plaza Mayor en los años 1920.",
+    "desc": "Exemple de text que pot haver, explicant característiques, detalls, etc",
     "year": 1920
   },
   {
     "lat": 39.939,
     "lon": -0.100,
-    "titulo": "Puente Antiguo",
+    "titulo": "Pont",
     "img": "puente_antiguo.jpg",
-    "desc": "El viejo puente de piedra antes de su reconstrucción.",
+    "desc": "Exemple de text que pot haver, explicant característiques, detalls, etc",,
     "year": 1930
   }
 ]
