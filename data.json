@@ -1,18 +1,24 @@
 [
   {
-    "lat": 39.937,
-    "lon": -0.103,
+    "id": "foto_001",
+	"lat": 39.937,
+    "lon": -0.100851,
     "titulo": "Plaça de la Vila",
     "img": "plaza_mayor.jpg",
     "desc": "Exemple de text que pot haver, explicant característiques, detalls, etc",
-    "year": 1920
+    "year": 1920,
+	"categoria": "infraestructura",
+	"tags": ["plaça", "centre històric", "ajuntament"]
   },
   {
-    "lat": 39.939,
-    "lon": -0.100,
+    "id": "foto_002",
+	"lat": 39.953973,
+    "lon": -0.095004,
     "titulo": "Pont",
     "img": "puente_antiguo.jpg",
-    "desc": "Exemple de text que pot haver, explicant característiques, detalls, etc",,
-    "year": 1930
+    "desc": "Exemple de text que pot haver, explicant característiques, detalls, etc",
+    "year": 1930,
+	"categoria": "arquitectura",
+	"tags": ["plaza", "centre històric", "ajuntament"]
   }
 ]
